@@ -1,8 +1,8 @@
 /*
-❯ rustc enum.rs && ./enum
-🔴
-🟡
-🟢
+    ❯ rustc enum.rs && ./enum
+    🔴
+    🟡
+    🟢
  */
 
 enum TrafficLight {

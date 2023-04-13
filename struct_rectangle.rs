@@ -1,3 +1,9 @@
+/*
+    ❯ rustc struct_rectangle.rs && ./struct_rectangle
+    Area: 12.0
+    Square: Rectangle { top_left: Point { x: 1.0, y: 4.0 }, bottom_right: Point { x: 4.0, y: 1.0 } }
+ */
+
 // https://doc.rust-lang.org/rust-by-example/custom_types/structs.html
 #[derive(Debug, Clone, Copy)]
 struct Point {

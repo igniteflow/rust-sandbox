@@ -1,3 +1,13 @@
+/*
+    ❯ rustc primitives.rs && ./primitives
+    Hello, igniteflow!
+    Tuple: (1, 2, 3)
+    Reversed tuple: (3, 2, 1)
+    Array: [1, 2, 3, 4, 5, 6]
+    Reversed array: [6, 5, 4, 3, 2, 1]
+    Bytes: 24
+    Slice: [1, 2]
+ */
 use std::mem;
 
 // rustc primitives.rs && ./primitives

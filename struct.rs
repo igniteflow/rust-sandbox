@@ -1,3 +1,8 @@
+/*
+    ❯ rustc struct.rs && ./struct
+    Dog { name: "Doge", breed: "Shiba Inu", age: 10 }
+    Name: Doge Age: 10
+ */
 #![allow(dead_code)]
 
 #[derive(Debug)]
@@ -14,8 +19,4 @@ fn main() {
     let dog = Dog{name, breed, age};
     println!("{dog:?}");
     println!("Name: {0} Age: {1}", dog.name, dog.age);
-
-    // Output
-    // Dog { name: "Doge", breed: "Shiba Inu", age: 10 }
-    // Name: Doge Age: 10
 }

@@ -1,4 +1,8 @@
-#![allow(unused)]
+/*
+    ❯ rustc emoji.rs && ./emoji
+    🐣
+ */
+
 
 fn main() {
     // from https://symbl.cc/en/1F423/ > Encoding > dec (bytes)
