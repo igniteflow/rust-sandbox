@@ -1,4 +1,5 @@
 // rustc hello.rs && ./hello
 fn main() {
-    println!("Hello, World!")
+    let subject = "igniteflow";
+    println!("Hello, {subject}!");
 }
