@@ -2,6 +2,12 @@
     ❯ rustc linked_list.rs && ./linked_list
     Length: 5
     Linked List: 5, 4, 3, 2, 1, Nil
+
+     ________     ________     ________     ________     ________
+    |        |   |        |   |        |   |        |   |        |
+    | Node 1 |-->| Node 2 |-->| Node 3 |-->| Node 4 |-->| Node 5 |
+    |________|   |________|   |________|   |________|   |________|
+
  */
 
 use crate::List::*;
