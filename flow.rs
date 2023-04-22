@@ -4,6 +4,8 @@ fn main() {
     pick_up_sticks();
     the_outer_limits();
     bottles_of_beer_on_the_wall();
+    let waves = while_the_waves_washed_the_shores();
+    println!("Immutable waves {}", waves)
 }
 
 fn fizz_buzz() {
@@ -57,4 +59,15 @@ fn bottles_of_beer_on_the_wall() {
         }
     };
     println!("{} bottles of beer on the wall", result);
+}
+
+fn while_the_waves_washed_the_shores() -> i32 {
+    let mut wave = 0;
+    while wave < 10 {
+        if wave == 5 {
+            return wave;
+        }
+        wave += 1;
+    }
+    wave
 }
