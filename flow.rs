@@ -5,7 +5,8 @@ fn main() {
     the_outer_limits();
     bottles_of_beer_on_the_wall();
     let waves = while_the_waves_washed_the_shores();
-    println!("Immutable waves {}", waves)
+    println!("Immutable waves {}", waves);
+    to_be_or_not_to_be();
 }
 
 fn fizz_buzz() {
@@ -70,4 +71,13 @@ fn while_the_waves_washed_the_shores() -> i32 {
         wave += 1;
     }
     wave
+}
+
+fn to_be_or_not_to_be() {
+    let to_be = true;
+    let result = match to_be {
+        true => "To be",
+        false => "Not to be"
+    };
+    println!("{}", result);
 }
