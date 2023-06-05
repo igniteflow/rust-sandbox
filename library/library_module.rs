@@ -1,5 +1,5 @@
 /*
-    > rustc --crate-type=lib libary_module.rs
+    > rustc --crate-type=lib library_module.rs
  */
 pub fn public_function() {
     println!("called library_modules's `public_function()`");
